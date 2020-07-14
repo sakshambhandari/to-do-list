@@ -1,0 +1,81 @@
+#container{
+	box-shadow: 12px 12px 2px 1px rgba(235, 237, 239, .5);
+	width: 400px;
+	margin: 150px auto;
+	background-color: #1A5276;
+
+}
+
+.completed{
+	color: grey;
+	text-decoration: line-through;
+}
+
+h1{
+	background-color: #34495E;
+	color: #F4B41A;
+	margin: 0;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-family: 'Fugaz One', cursive;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li{
+	background-color: #0E6655 ;
+	height: 40px;
+	line-height: 40px;
+	font-weight: bolder;
+	color: #F4B41A;
+}
+li:nth-child(2n){
+	background-color: #143D59;
+}
+
+input{
+	font-size: 25px;
+	background-color: #D5DBDB;
+	width: 100%;
+	padding: 13px 13px 13px 13px;
+	box-sizing: border-box;
+	color: #34495E;
+}
+
+input:focus{
+	background-color: #fff;
+	border: 3px solid #34495E;
+	outline: none;
+}
+
+body{
+	background: #134E5E;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #71B280, #134E5E);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #71B280, #134E5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.fa-plus{
+	float: right;
+}
+
+span{
+	background-color: #c72424;
+	height: 40px;
+	text-align: center;
+	margin-right: 20px;
+	color: black;
+	width: 40px;
+	display: inline-block;
+	border: 1px solid black;
+	transition: 0.2s linear;
+}
+
+li:hover span{
+	transform: scale(1.15);
+}
